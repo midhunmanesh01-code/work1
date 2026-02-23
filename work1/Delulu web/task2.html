@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+
+    <style> * 
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Helvetica", sans-serif;
+        }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #131313;
+    }
+
+    #date {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        color: #ffffffcc;
+        letter-spacing: 2px;
+    }
+
+    #clock {
+        font-size: 4rem;
+        font-weight: bold;
+        letter-spacing: 4px;
+        color: #ffffff;
+    }
+
+    </style>
+    <script src="task2script.js" defer></script>
+</head>
+<body>
+    <div id="clockbox">
+    <div id="clock">00:00:00</div>
+    <div id="date">Day, Date</div>
+</div>
+</body>
+</html>
